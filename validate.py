@@ -46,7 +46,7 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
     if card.get("faction_code") and card["faction_code"] not in [f["code"] for f in factions_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
     if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
-        raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
+        raise jsonschema.ValidationError("Type code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
     if card.get("traits") and not re.search("[\.!\d]$", card["traits"]):
         raise jsonschema.ValidationError("The traits list \"%s\" on card %s does not end with a period (.), exclamation point (!), or number (0-9)." % (card["traits"], card["code"]))
 
@@ -95,6 +95,16 @@ def load_json_file(args, path):
                 print(e)
     return json_data
 
+def load_factions(args):
+    verbose_print(args, "Loading faction index file...\n", 1)
+    factions_path = os.path.join(args.base_path, "factions.json")
+    factions_data = load_json_file(args, factions_path)
+
+    if not validate_factions(args, factions_data):
+        return None
+
+    return factions_data
+
 def load_packs(args):
     verbose_print(args, "Loading pack index file...\n", 1)
     packs_path = os.path.join(args.base_path, "packs.json")
@@ -113,16 +123,6 @@ def load_packs(args):
 
     return packs_data
 
-def load_factions(args):
-    verbose_print(args, "Loading faction index file...\n", 1)
-    factions_path = os.path.join(args.base_path, "factions.json")
-    factions_data = load_json_file(args, factions_path)
-
-    if not validate_factions(args, factions_data):
-        return None
-
-    return factions_data
-
 def load_types(args):
     verbose_print(args, "Loading type index file...\n", 1)
     types_path = os.path.join(args.base_path, "types.json")
@@ -132,16 +132,6 @@ def load_types(args):
         return None
 
     return types_data
-
-def load_sides(args):
-    verbose_print(args, "Loading side index file...\n", 1)
-    sides_path = os.path.join(args.base_path, "sides.json")
-    sides_data = load_json_file(args, sides_path)
-
-    if not validate_sides(args, sides_data):
-        return None
-
-    return sides_data
 
 def parse_commandline():
     argparser = argparse.ArgumentParser(description="Validate JSON in the netrunner cards repository.")
@@ -154,9 +144,9 @@ def parse_commandline():
 
     # Set all the necessary paths and check if they exist
     if getattr(args, "schema_path", None) is None:
-        setattr(args, "schema_path", os.path.join(args.base_path,SCHEMA_DIR))
+        setattr(args, "schema_path", os.path.join(args.base_path, SCHEMA_DIR))
     if getattr(args, "pack_path", None) is None:
-        setattr(args, "pack_path", os.path.join(args.base_path,PACK_DIR))
+        setattr(args, "pack_path", os.path.join(args.base_path, PACK_DIR))
     check_dir_access(args.base_path)
     check_dir_access(args.schema_path)
     check_dir_access(args.pack_path)
@@ -293,35 +283,6 @@ def validate_types(args, types_data):
 
     return retval
 
-def validate_sides(args, sides_data):
-    global validation_errors
-
-    verbose_print(args, "Validating side index file...\n", 1)
-    side_schema_path = os.path.join(args.schema_path, "side_schema.json")
-    SIDE_SCHEMA = load_json_file(args, side_schema_path)
-    if not isinstance(sides_data, list):
-        verbose_print(args, "Insides of side index file are not a list!\n", 0)
-        return False
-    if not SIDE_SCHEMA:
-        return False
-    if not check_json_schema(args, SIDE_SCHEMA, side_schema_path):
-        return False
-
-    retval = True
-    for c in sides_data:
-        try:
-            verbose_print(args, "Validating side %s... " % c.get("name"), 2)
-            jsonschema.validate(c, SIDE_SCHEMA)
-            verbose_print(args, "OK\n", 2)
-        except jsonschema.ValidationError as e:
-            verbose_print(args, "ERROR\n",2)
-            verbose_print(args, "Validation error in side: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
-            validation_errors += 1
-            verbose_print(args, "%s\n" % e, 0)
-            retval = False
-
-    return retval
-
 def check_translations_simple(args, base_translations_path, locale_name, base_file_name):
     file_name = "%s.json" % (base_file_name)
     verbose_print(args, "Loading file %s...\n" % file_name, 1)
@@ -351,16 +312,6 @@ def check_all_translations(args):
     translations_directories = os.listdir(base_translations_path)
     for locale_name in translations_directories:
         check_translations(args, base_translations_path, locale_name)
-
-def check_mwl(args):
-    verbose_print(args, "Loading MWL...\n", 1)
-    mwl_path = os.path.join(args.base_path, "mwl.json")
-    load_json_file(args, mwl_path)
-
-def check_prebuilt(args):
-    verbose_print(args, "Loading Prebuilts...\n", 1)
-    mwl_path = os.path.join(args.base_path, "prebuilts.json")
-    load_json_file(args, mwl_path)
 
 def verbose_print(args, text, minimum_verbosity=0):
     if args.verbose >= minimum_verbosity:
