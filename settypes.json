@@ -28,6 +28,10 @@
 		"name": "Invocation"
 	},
 	{
+		"code": "weather",
+		"name": "Weather"
+	},
+	{
 		"code": "evidence",
 		"name": "Evidence"
 	}
