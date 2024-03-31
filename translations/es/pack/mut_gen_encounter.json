@@ -2,7 +2,7 @@
 	{
 		"code": "32025",
 		"name": "Morriña",
-		"text": "<b><i>Dale esta carta al jugador que lleva a Piotr Rasputin.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota a Piotr Rasputin → retira de la partida Morriña.\n\u2022 Descarta esta carta y todas las cartas de Estado /*Duro/* que tenga tu Superhéroe. Si no has descartado ninguna carta de Estado /*Duro/* de este modo, esta carta gana Oleada."
+		"text": "<b><i>Dale esta carta al jugador que lleva a Piotr Rasputin.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n• Agota a Piotr Rasputin → retira de la partida Morriña.\n• Descarta esta carta y todas las cartas de Estado /*Duro/* que tenga tu Superhéroe. Si no has descartado ninguna carta de Estado /*Duro/* de este modo, esta carta gana Oleada."
 	},
 	{
 		"code": "32026",
@@ -52,15 +52,15 @@
 	},
 	{
 		"code": "32059",
-		"name": "Contención telepática",
 		"flavor": "\"Pórtate bien y no te muevas...ni hables.Así está mejor.\"-Reina Blanca",
+		"name": "Contención telepática",
 		"text": "Vincula esta carta a tu Superhéroe.\nMientras la Contención telepática esté vinculada a tu Superhéroe, quedas aturdido.\n<b>Acción:</b> gasta recursos [mental][mental] → descarta esta carta.",
 		"traits": "Alteración."
 	},
 	{
 		"code": "32060",
-		"name": "Dientes de Sable I",
 		"flavor": "\"¡Te voy a arrancar las tripas!\"",
+		"name": "Dientes de Sable I",
 		"text": "[star] <b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento () que se hayan descartado de este modo.",
 		"traits": "Hermandad de mutantes"
 	},
@@ -90,8 +90,8 @@
 	{
 		"back_link": "32064b",
 		"code": "32064a",
-		"name": "El Senador herido 2A",
 		"flavor": "\"¡Dientes de Sable ha herido al senador Kelly y continúa hostigándolo!\"",
+		"name": "El Senador herido 2A",
 		"text": "<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo."
 	},
 	{
@@ -146,8 +146,8 @@
 	},
 	{
 		"code": "32072",
-		"name": "Rabia salvaje",
 		"flavor": "\"La caza de Kelly ha inducido un frenesí rabioso en Dientes de Sable. ¡Teneís qué desviar su atención del senador!\"",
+		"name": "Rabia salvaje",
 		"text": "<b>Cuando se derrote esta carta:</b> Dientes de Sable ataca al jugador que haya derrotado este Plan (incluso aunque tenga adoptada la identidad de su Alter ego)."
 	},
 	{
@@ -158,22 +158,22 @@
 	},
 	{
 		"code": "32074",
+		"flavor": "\"¡Nada mueve a la Mole!\"",
 		"name": "Mole",
 		"text": "Guardia.\n[star] <b>Respuesta obligada:</b> después de que la Mole ataque e inflija Daño a un personaje, aturde a ese personaje.",
-		"flavor": "\"¡Nada mueve a la Mole!\"",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32075",
-		"name": "Piros",
 		"flavor": "\"Piros juega con fuego, chicos...¡pero nunca se quema!\"",
+		"name": "Piros",
 		"text": "[star] <b>Respuesta obligada:</b> después de que Piros te ataque, descarta las 2 primeras cartas de tu mazo. Sufres 1 de Daño indirecto por cada icono de recurso impreso que se hata descartado de este modo.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32076",
 		"name": "Sapo",
-		"text": "[star] <b>Respuesta obligada:</b> después de que Sapo ataque e inflija Daño a un personaje que controles, descarta 1 carta de tu mano al azar.\n<hr />\n[star] <b>Aumento</b>: \n<hr />\n[star] <b>Aumento</b>: descarta 1 carta de tu mano al azar.",
+		"text": "[star] <b>Respuesta obligada:</b> después de que Sapo ataque e inflija Daño a un personaje que controles, descarta 1 carta de tu mano al azar.\n<hr />\n[star] <b>Aumento</b>:\n<hr />\n[star] <b>Aumento</b>: descarta 1 carta de tu mano al azar.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
@@ -189,8 +189,8 @@
 	},
 	{
 		"code": "32079",
-		"name": "La Hermandad",
 		"flavor": "\"Magneto fundó la Hermandad de Mutantes para llevar a cabo su plan de supremacía mutante.\"",
+		"name": "La Hermandad",
 		"text": "Complicación 2[per_hero].\nTodos los Esbirros [[HERMANDAD DE MUTANTES]] ganan Ataque veloz."
 	},
 	{

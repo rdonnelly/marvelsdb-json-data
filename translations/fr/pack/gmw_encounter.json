@@ -2,7 +2,7 @@
 	{
 		"code": "16025",
 		"name": "Flétrissement",
-		"text": "<b><i>Donnez cette carte au joueur de Groot.</b></i>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n\u2022 Inclinez votre alter ego → retirez Flétrissement de la partie.\n\u2022 Retirez 3 jetons Croissance de Groot. Si aucun jeton Croissance n'est retiré par cet effet, cette carte gagne Renfort. Défaussez cette obligation."
+		"text": "<b><i>Donnez cette carte au joueur de Groot.</b></i>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n• Inclinez votre alter ego → retirez Flétrissement de la partie.\n• Retirez 3 jetons Croissance de Groot. Si aucun jeton Croissance n'est retiré par cet effet, cette carte gagne Renfort. Défaussez cette obligation."
 	},
 	{
 		"code": "16026",
@@ -24,7 +24,7 @@
 	{
 		"code": "16053",
 		"name": "Panique sur le Demi-Monde",
-		"text": "<b><i>Donnez cette carte au joueur de Rocket Raccoon.</b></i>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n\u2022 Inclinez votre alter ego → retirez Panique sur le Demi-Monde de la partie.\n\u2022 Défaussez l'amélioration ayant le coût le plus élevé que vous contrôlez. Si aucune amélioration n'est défaussée par cet effet, cette carte gagne Renfort. Défaussez cette obligation."
+		"text": "<b><i>Donnez cette carte au joueur de Rocket Raccoon.</b></i>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n• Inclinez votre alter ego → retirez Panique sur le Demi-Monde de la partie.\n• Défaussez l'amélioration ayant le coût le plus élevé que vous contrôlez. Si aucune amélioration n'est défaussée par cet effet, cette carte gagne Renfort. Défaussez cette obligation."
 	},
 	{
 		"code": "16054",

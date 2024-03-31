@@ -103,8 +103,8 @@
 	},
 	{
 		"code": "43015",
-		"name": "Shatterstar", 
-      	"flavor": "Shatterstar est un épéiste de talent qui peut même couper à travers la matrice de l'espace pour se téléporter en des lieux très distants.",
+		"flavor": "Shatterstar est un épéiste de talent qui peut même couper à travers la matrice de l'espace pour se téléporter en des lieux très distants.",
+		"name": "Shatterstar",
 		"subname": "Gaveedra Seven",
 		"text": "[star] <b>Interruption</b> : quand Shatterstar attaque un sbire, engagez ce sbire. Si vous êtes déjà engagé avec ce sbire, Shatterstar gagne +1 ATQ pour cette attaque.",
 		"traits": "X-Force."
@@ -163,8 +163,8 @@
 	},
 	{
 		"code": "43039",
-		"name": "Mobiliser les Troupes",
 		"flavor": "\"Tous en avant ! La victoire est en vue !\" — Cyclope",
+		"name": "Mobiliser les Troupes",
 		"text": "Victoire 0.\n<b>Une fois déjouée</b> : soignez 2 dégâts à chaque allié."
 	},
 	{

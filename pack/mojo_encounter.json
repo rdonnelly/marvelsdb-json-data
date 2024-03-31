@@ -483,7 +483,7 @@
 		"quantity": 2,
 		"set_code": "spiral",
 		"set_position": 7,
-		"text": "Attach to Spiral.\nUses (3 sword counters).\n[star] Spiral gets +1 ATK for each sword counter on this card.\n<b>Hero Action</b>: If Spiral is on her [[Cornered]] side, spend [physical] [physical] resources \u2192 remove 1 sword counter from this card.",
+		"text": "Attach to Spiral.\nUses (3 sword counters).\n[star] Spiral gets +1 ATK for each sword counter on this card.\n<b>Hero Action</b>: If Spiral is on her [[Cornered]] side, spend [physical] [physical] resources → remove 1 sword counter from this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
