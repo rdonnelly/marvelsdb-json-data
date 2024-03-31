@@ -1,4 +1,5 @@
-MarvelsDB cards JSON data
+# MarvelsDB cards JSON data
+
 =========
 
 The goal of this repository is to store marvelsdb card data in a format that can be easily updated by multiple people and their changes reviewed.
@@ -7,7 +8,7 @@ The goal of this repository is to store marvelsdb card data in a format that can
 
 Steps have been verified with Python 2.7.x and 3.7.x.
 
-#### Set Up Python Environment
+### Set Up Python Environment
 
 The validation script requires python package `jsonschema` which can be installed using `pip` via `pip install jsonschema`. It is recommended that you use a virtual environment, but this is strictly optional.
 
@@ -20,7 +21,7 @@ pip install jsonschema
 
 If you see an error like _"No module named jsonschema"_ when running the script, you have not installed the `jsonschema` package correctly.
 
-#### Run the Validation Script
+### Run the Validation Script
 
 To check the JSON files:
 
@@ -41,7 +42,6 @@ To check and apply formatting to JSON files:
 
 ./validate.py --verbose --fix_formatting
 ```
-
 
 #### Pack schema
 
@@ -73,6 +73,7 @@ To check and apply formatting to JSON files:
 * **cost_per_hero** - Whether the **cost** is per hero
 * **deck_limit** - The max number of the given card that can be in a deck
 * **deck_options** - Alter-ego/hero only - describes the options while deck building a hero. e.g.:
+
   ```json
   "deck_options": [
     {
@@ -81,7 +82,9 @@ To check and apply formatting to JSON files:
     }
   ]
   ```
+
 * **deck_requirements** - Alter-ego/hero only - describes the requirements while deck building a hero. e.g.:
+
   ```json
   "deck_requirements": [
     {
@@ -89,6 +92,7 @@ To check and apply formatting to JSON files:
     }
   ]
   ```
+
 * **defense** - Character's defense value
 * **defense_star** - Whether a star appears in the defense field indicating a special ability
 * **double_sided** - Whether the card is a double sided card (incompatible with the **back_link** method)
@@ -167,9 +171,9 @@ To check and apply formatting to JSON files:
 
 ## JSON text editing tips
 
-Full description of (very simple) JSON format can be found [here](http://www.json.org/), below there are a few tips most relevant to editing this repository.
+Full description of (very simple) JSON format can be found at [json.org](http://www.json.org/), below there are a few tips most relevant to editing this repository.
 
-#### Non-ASCII symbols
+### Non-ASCII symbols
 
 When symbols outside the regular [ASCII range](https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart) are needed, UTF-8 symbols come in play. These need to be escaped using `\u<4 letter hexcode>`.
 
@@ -179,8 +183,8 @@ To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexc
 
 To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"I'd run if I were you.\"\n - Scott Lang",` results in following flavor text:
 
-> *"I'd run if I were you."*
-> *- Scott Lang*
+> _"I'd run if I were you."_
+> _- Scott Lang_
 
 #### Game Symbols
 
@@ -205,7 +209,8 @@ These can be used in a card's `text` section. It will get converted to the appro
 To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
 
 Pre-requisites:
- * `node` and `npm` installed
- * `npm -g install coffee-script`
+
+* `node` and `npm` installed
+* `npm -g install coffee-script`
 
 Usage: `coffee update_locales.coffee`
