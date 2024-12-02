@@ -1,4 +1,4 @@
-[	
+[
 	{
 		"code": "40031",
 		"name": "Technovirus-Rückfall",
@@ -58,7 +58,7 @@
 		"flavor": "Dominos Glück ist Prototypes Unglück und umgekehrt. Ihr Leid macht ihn stärker.",
 		"name": "Prototype",
 		"text": "[star] Prototype bekommt für jeden Glücksmarker auf ihm +1 Lebenspunkt.\n<b>Sobald aufgedeckt</b> : Platziere so viele Glücksmarker auf Prototype, wie deine Identität Schaden erlitten hat.",
-		"traits":"Mutant."
+		"traits": "Mutant."
 	},
 	{
 		"code": "40069",

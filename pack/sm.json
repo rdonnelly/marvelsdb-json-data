@@ -739,10 +739,10 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"subname": "Sharon Carter",
-		"thwart": 2,
-		"thwart_star": true,
-		"thwart_cost": 1,
 		"text": "[star] <b>Response</b>: After Agent 13 attacks or thwarts, choose a [[S.H.I.E.L.D.]] support → ready that support.",
+		"thwart": 2,
+		"thwart_cost": 1,
+		"thwart_star": true,
 		"traits": "S.H.I.E.L.D. Spy.",
 		"type_code": "ally"
 	},
