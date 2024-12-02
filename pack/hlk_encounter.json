@@ -11,7 +11,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "hulk",
-		"text": "<b><i>Give to the Bruce Banner player.</i></b>\nChange form <i>(flip your identity)</i>.\n\u2022 If you are Bruce Banner, discard 2 cards from your hand. Discard this obligation.\n\u2022 If you are Hulk, exhaust your hero. Discard this obligation.",
+		"text": "<b><i>Give to the Bruce Banner player.</i></b>\nChange form <i>(flip your identity)</i>.\n• If you are Bruce Banner, discard 2 cards from your hand. Discard this obligation.\n• If you are Hulk, exhaust your hero. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{

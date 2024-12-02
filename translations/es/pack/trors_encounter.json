@@ -2,7 +2,7 @@
 	{
 		"code": "04026",
 		"name": "Pasado criminal",
-		"text": "<b><i>Dale esta carta al jugador que lleva a Clint Barton.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota a Clint Barton → retira del juego Pasado criminal.\n\u2022 Descarta del juego el Arco de Ojo de Halcón. Descarta esta Obligación."
+		"text": "<b><i>Dale esta carta al jugador que lleva a Clint Barton.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n• Agota a Clint Barton → retira del juego Pasado criminal.\n• Descarta del juego el Arco de Ojo de Halcón. Descarta esta Obligación."
 	},
 	{
 		"code": "04027",
@@ -30,7 +30,7 @@
 	{
 		"code": "04053",
 		"name": "Lealtad dudosa",
-		"text": "<b><i>Dale esta carta al jugador que lleva a Jessica Drew.</i></b>\nPuedes adoptar la identidad de ti Alter ego. Elige una opción:\n\u2022 Agota a Jessica Drew → retira del juego Lealtad dudosa.\n\u2022 Coloca 3 de Amenaza sobre el Plan principal. Descarta esta Obligación."
+		"text": "<b><i>Dale esta carta al jugador que lleva a Jessica Drew.</i></b>\nPuedes adoptar la identidad de ti Alter ego. Elige una opción:\n• Agota a Jessica Drew → retira del juego Lealtad dudosa.\n• Coloca 3 de Amenaza sobre el Plan principal. Descarta esta Obligación."
 	},
 	{
 		"code": "04054",
@@ -196,7 +196,7 @@
 	{
 		"code": "04078",
 		"name": "Hombre Absorbente",
-		"text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n[star] <b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n\u2022 [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n\u2022 [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto.",
+		"text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n[star] <b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n• [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n• [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto.",
 		"traits": "Bruto."
 	},
 	{

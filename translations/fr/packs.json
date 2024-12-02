@@ -6,7 +6,7 @@
 	{
 		"code": "angel",
 		"name": "Angel"
-	},    
+	},
 	{
 		"code": "aoa",
 		"name": "L'Ère d'Apocalypse"
@@ -64,17 +64,17 @@
 		"name": "The Hood"
 	},
 	{
-        	"code": "iceman",
-        	"name": "Iceberg"
-    	},
+		"code": "iceman",
+		"name": "Iceberg"
+	},
 	{
 		"code": "ironheart",
 		"name": "Ironheart"
 	},
 	{
-        	"code": "jubilee",
-        	"name": "Jubilé"
-    	},
+		"code": "jubilee",
+		"name": "Jubilé"
+	},
 	{
 		"code": "mojo",
 		"name": "MojoMania"
@@ -92,15 +92,15 @@
 		"name": "La Genèse des Mutants"
 	},
 	{
-        	"code": "ncrawler",
-        	"name": "Diablo"
+		"code": "ncrawler",
+		"name": "Diablo"
 	},
 	{
 		"code": "nebu",
 		"name": "Nebula"
 	},
 	{
-		"code": "next_evol",  
+		"code": "next_evol",
 		"name": "NeXt Evolution"
 	},
 	{
@@ -114,13 +114,13 @@
 	{
 		"code": "psylocke",
 		"name": "Psylocke"
-	},	
+	},
 	{
 		"code": "qsv",
 		"name": "Vif-Argent"
 	},
 	{
-		"code": "rogue",	
+		"code": "rogue",
 		"name": "Malicia"
 	},
 	{

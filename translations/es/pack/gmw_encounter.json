@@ -2,7 +2,7 @@
 	{
 		"code": "16025",
 		"name": "Marchitamiento",
-		"text": "<b><i>Dale esta carta al jugador que lleva a Groot.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota tu Alter ego → retira del juego Marchitamiento.\n\u2022 Quita 3 contadores de Crecimiento a Groot. Si no se quita ningún contador de Crecimiento de este modo, esta carta gana Oleada. Descarta esta Obligación."
+		"text": "<b><i>Dale esta carta al jugador que lleva a Groot.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n• Agota tu Alter ego → retira del juego Marchitamiento.\n• Quita 3 contadores de Crecimiento a Groot. Si no se quita ningún contador de Crecimiento de este modo, esta carta gana Oleada. Descarta esta Obligación."
 	},
 	{
 		"code": "16026",
@@ -24,7 +24,7 @@
 	{
 		"code": "16053",
 		"name": "Crisis en Medio Mundo",
-		"text": "<b><i>Dale esta carta al jugador que lleva a Mapache Cohete.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota tu Alter ego → retira del juego Crisis en Medio Mundo.\n\u2022 Descarta la Mejora con el coste más alto que controles. Si no se descarta ninguna Mejora de este modo, esta carta gana Oleada. Descarta esta Obligación."
+		"text": "<b><i>Dale esta carta al jugador que lleva a Mapache Cohete.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n• Agota tu Alter ego → retira del juego Crisis en Medio Mundo.\n• Descarta la Mejora con el coste más alto que controles. Si no se descarta ninguna Mejora de este modo, esta carta gana Oleada. Descarta esta Obligación."
 	},
 	{
 		"code": "16054",
