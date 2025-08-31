@@ -161,7 +161,7 @@
 		"code": "39018",
 		"flavor": "\"No sé cómo se las apaña para no rebanarse un brazo\" — Gambito",
 		"name": "Espadas de Espiral",
-		"text": "Vincula esta carta a Espiral.\nUsos (3 contadores de Espada).\n[star] Espiral recibe +1 ATQ por cada contador de Espada que haya sobre esta carta.\n<b>Acción de Héroe</b>: si Espiral tiene boca arriba su cara [[Acorralada]], gasta recursos [physical] [physical] \u2192 quita 1 contador de Espada de esta carta.",
+		"text": "Vincula esta carta a Espiral.\nUsos (3 contadores de Espada).\n[star] Espiral recibe +1 ATQ por cada contador de Espada que haya sobre esta carta.\n<b>Acción de Héroe</b>: si Espiral tiene boca arriba su cara [[Acorralada]], gasta recursos [physical] [physical] → quita 1 contador de Espada de esta carta.",
 		"traits": "Arma."
 	},
 	{
@@ -224,9 +224,9 @@
 	},
 	{
 		"code": "39027",
-		"name": "Mayor Domo",
 		"flavor": "\"Vivo para servir Su ilustre invertebradez.\"",
-		"text": "Vincula esta carta a Mojo.\n[star] <b>Respuesta obligada</b>: después de que Mojo ataque, descarta tantas carta del mazo de Encuentros como la cantidad de Daño infligida por ese ataque.\n<b>Acción de Héroe</b>: gasta recursos [energy] [mental] [physical] \u2192 descarta esta carta.",
+		"name": "Mayor Domo",
+		"text": "Vincula esta carta a Mojo.\n[star] <b>Respuesta obligada</b>: después de que Mojo ataque, descarta tantas carta del mazo de Encuentros como la cantidad de Daño infligida por ese ataque.\n<b>Acción de Héroe</b>: gasta recursos [energy] [mental] [physical] → descarta esta carta.",
 		"traits": "Individuo."
 	},
 	{
@@ -245,7 +245,7 @@
 	{
 		"code": "39030",
 		"name": "Paparazzi",
-		"text": "Complicación 10.\n<b>Acción</b>: elige entre agotar un personaje que controles o descartar 1 carta de tu mano \u2192 quita 2 de Amenaza de esta carta (3 de Amenaza si tienes adoptada la identidad de tu Alter ego).\n<b>Interrupción obligada</b>: cuando termine tu turno, traslada toda la Amenaza de esta carta al Plan principal y descarta esta carta."
+		"text": "Complicación 10.\n<b>Acción</b>: elige entre agotar un personaje que controles o descartar 1 carta de tu mano → quita 2 de Amenaza de esta carta (3 de Amenaza si tienes adoptada la identidad de tu Alter ego).\n<b>Interrupción obligada</b>: cuando termine tu turno, traslada toda la Amenaza de esta carta al Plan principal y descarta esta carta."
 	},
 	{
 		"code": "39031",
@@ -283,19 +283,19 @@
 		"code": "39037",
 		"flavor": "\"Lo único que hemos encontrado es un pelo.\"\n\"Pues con eso ya tenemos el caso resuelto.\"\n— Detectives Domo y Mojo",
 		"name": "Investigar la escena del crimen",
-		"text": "Complicación 1[per_hero].\nNo puede quitarse Amenaza de otros Planes.\n<b>Acción de Héroe</b>: gasta X recursos [mental] \u2192 quita X de Amenaza de este Plan."
+		"text": "Complicación 1[per_hero].\nNo puede quitarse Amenaza de otros Planes.\n<b>Acción de Héroe</b>: gasta X recursos [mental] → quita X de Amenaza de este Plan."
 	},
 	{
 		"code": "39038",
 		"flavor": "\"¡Acuso a mis dos yos de desacato a este tribunal!\" — Juez Mojo",
 		"name": "Ley y orden",
-		"text": "Complicación 1[per_hero].\nTodos los poersonajes amigos reciben -2 ATQ.\n<b>Acción de Héroe</b>: gasta X recursos [energy] \u2192 quita X de Amenaza de este Plan."
+		"text": "Complicación 1[per_hero].\nTodos los poersonajes amigos reciben -2 ATQ.\n<b>Acción de Héroe</b>: gasta X recursos [energy] → quita X de Amenaza de este Plan."
 	},
 	{
 		"code": "39039",
 		"flavor": "\"Yo no he estado aquí.\" — Jefe Mojo",
 		"name": "Operación de busca y captura",
-		"text": "Complicación 1[per_hero].\nEl Villano no puede sufrir Daño.\n<b>Acción de Héroe</b>: gasta X recursos [physical] \u2192 quita X de Amenaza de este Plan."
+		"text": "Complicación 1[per_hero].\nEl Villano no puede sufrir Daño.\n<b>Acción de Héroe</b>: gasta X recursos [physical] → quita X de Amenaza de este Plan."
 	},
 	{
 		"code": "39040",
@@ -346,7 +346,7 @@
 	{
 		"code": "39048",
 		"name": "Bandolera de estacas",
-		"text": "Oleada. Usos (3 contadores de Estacas).\n<b>Cuando se muestre esta carta:</b> puedes gastar 1 recurso de cualquier tipo para vincular esta carta a tu Superhéroe. Deno ser así, descarta esta carta.\n<b>Interrupción de Héroe:</b> cuando tu Héroe realice un ataque básico, quita 1 contador de Estacas de esta carta \u2192 tu Héroe recibe +1 ATQ para ese ataque y además ese ataque gana Penetrante.",
+		"text": "Oleada. Usos (3 contadores de Estacas).\n<b>Cuando se muestre esta carta:</b> puedes gastar 1 recurso de cualquier tipo para vincular esta carta a tu Superhéroe. Deno ser así, descarta esta carta.\n<b>Interrupción de Héroe:</b> cuando tu Héroe realice un ataque básico, quita 1 contador de Estacas de esta carta → tu Héroe recibe +1 ATQ para ese ataque y además ese ataque gana Penetrante.",
 		"traits": "Objeto."
 	},
 	{
@@ -432,7 +432,7 @@
 		"code": "39061",
 		"flavor": "\"¡Nunca seré como tú!\"\n\"¡Si eres un clon de mí!\" —X-23 y Lobezno",
 		"name": "Enredos de familia",
-		"text": "Trata el texto de reglas impreso de todos los Apoyos que controles como si estuviese en blanco (a excepción de los [rasgos]).\n<b>Acción de Alter ego</b>: agota tu Superhéroe y todos los Apoyos que controles \u2192 descarta esta Obligación."
+		"text": "Trata el texto de reglas impreso de todos los Apoyos que controles como si estuviese en blanco (a excepción de los [rasgos]).\n<b>Acción de Alter ego</b>: agota tu Superhéroe y todos los Apoyos que controles → descarta esta Obligación."
 	},
 	{
 		"code": "39062",
@@ -444,18 +444,18 @@
 		"code": "39063",
 		"flavor": "\"Ya lo recogeré luego.\" —Júbilo",
 		"name": "La extraña pareja",
-		"text": "Tu límite de Aliados se reduce en 2.\n<b>Acción de Alter ego</b>: agota 2 personajes que controles \u2192 coge un Aliado de tu pila de descartes, añadelo a tu mazo, barájalo y descarta esta Obligación."
+		"text": "Tu límite de Aliados se reduce en 2.\n<b>Acción de Alter ego</b>: agota 2 personajes que controles → coge un Aliado de tu pila de descartes, añadelo a tu mazo, barájalo y descarta esta Obligación."
 	},
 	{
 		"code": "39064",
 		"name": "El episodio de la ruptura",
-		"text": "Todas las cartas de Encuentro ganan Peligro.\n<b>Acción de Alter ego</b>: descarta 3 cartas de tu mano y elige un jugador \u2192 el jugador elegido roba 1 carta y tú descartas esta Obligación."
+		"text": "Todas las cartas de Encuentro ganan Peligro.\n<b>Acción de Alter ego</b>: descarta 3 cartas de tu mano y elige un jugador → el jugador elegido roba 1 carta y tú descartas esta Obligación."
 	},
 	{
 		"code": "39065",
 		"flavor": "\"¿Cómo que 'jugar' y 'poner en juego' no significan lo mismo?\" —Masacre",
 		"name": "Miradme jugar",
-		"text": "Incitar 3. Peligro.\n<b>Interrupción obligada</b>: cuando tengas que consultar cómo funciona una regla del juego, quedas confundido.\n<b>Acción de Alter ego</b>: agota tu Superhéroe y descarta una carta de Estado \"Confundido\" que tenga \u2192 descarta esta Obligación."
+		"text": "Incitar 3. Peligro.\n<b>Interrupción obligada</b>: cuando tengas que consultar cómo funciona una regla del juego, quedas confundido.\n<b>Acción de Alter ego</b>: agota tu Superhéroe y descarta una carta de Estado \"Confundido\" que tenga → descarta esta Obligación."
 	},
 	{
 		"code": "39066",

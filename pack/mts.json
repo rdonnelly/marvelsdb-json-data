@@ -1012,9 +1012,9 @@
 		"resource_mental": 1,
 		"set_code": "mts_campaign",
 		"set_position": 1,
+		"text": "The first player gains control of Cosmo.\nCosmo does not count against the ally limit.\n<b>Forced Interrupt</b>: When Cosmo leaves play, remove him from the game.",
 		"thwart": 2,
 		"thwart_cost": 1,
-		"text": "The first player gains control of Cosmo.\nCosmo does not count against the ally limit.\n<b>Forced Interrupt</b>: When Cosmo leaves play, remove him from the game.",
 		"traits": "Guardian.",
 		"type_code": "ally"
 	},
@@ -1135,7 +1135,7 @@
 		"quantity": 4,
 		"set_code": "mts_campaign",
 		"set_position": 9,
-		"text": "You cannot choose to discard this card from your hand.\nWhile this card is in your hand, it gains: \"<b>Alter-Ego Action</b>: Spend a [mental] resource \u2192 remove this card from the game.\"",
+		"text": "You cannot choose to discard this card from your hand.\nWhile this card is in your hand, it gains: \"<b>Alter-Ego Action</b>: Spend a [mental] resource → remove this card from the game.\"",
 		"type_code": "obligation"
 	},
 	{
@@ -1270,7 +1270,7 @@
 		"resource_wild": 1,
 		"set_code": "mts_campaign",
 		"set_position": 20,
-		"text": "<b>Action</b>: Spend a [physical] resource \u2192 ready Lady Sif.",
+		"text": "<b>Action</b>: Spend a [physical] resource → ready Lady Sif.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Asgard. Captive.",
@@ -1341,7 +1341,7 @@
 		"resource_wild": 1,
 		"set_code": "mts_campaign",
 		"set_position": 23,
-		"text": "Retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i> \nToughness. <i>(This character enters play with a tough status card.)</i>",
+		"text": "Retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Asgard. Captive.",

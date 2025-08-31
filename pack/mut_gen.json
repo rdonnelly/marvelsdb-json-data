@@ -860,7 +860,7 @@
 		"resource_mental": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 1,
-		"text": "Permanent.\nThe first player controls Metro P.D.\n<b>Action</b>: Exhaust Metro P.D. \u2192 choose to either deal 1 damage to an enemy or remove 1 threat from a scheme.",
+		"text": "Permanent.\nThe first player controls Metro P.D.\n<b>Action</b>: Exhaust Metro P.D. → choose to either deal 1 damage to an enemy or remove 1 threat from a scheme.",
 		"traits": "Persona.",
 		"type_code": "support"
 	},
@@ -934,7 +934,7 @@
 		"quantity": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 3,
-		"text": "<b>Response</b>: After you defeat a [[Sentinel]] minion, spend 1 resource of any type \u2192 choose a facedown ally under this card and put it into play under your control. <i>(Any player may trigger this ability.)</i>",
+		"text": "<b>Response</b>: After you defeat a [[Sentinel]] minion, spend 1 resource of any type → choose a facedown ally under this card and put it into play under your control. <i>(Any player may trigger this ability.)</i>",
 		"traits": "Mission.",
 		"type_code": "environment"
 	},
@@ -968,7 +968,7 @@
 		"quantity": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 4,
-		"text": "<b>Alter-Ego Action</b>: Spend [energy] [mental] [physical] resources \u2192 deal 5 damage to each enemy in play. Remove this card from the game.",
+		"text": "<b>Alter-Ego Action</b>: Spend [energy] [mental] [physical] resources → deal 5 damage to each enemy in play. Remove this card from the game.",
 		"type_code": "obligation"
 	},
 	{
@@ -1054,7 +1054,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 3,
-		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, spend 1 resource of any type \u2192 prevent 3 damage from this attack and deal 3 damage to that enemy. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, spend 1 resource of any type → prevent 3 damage from this attack and deal 3 damage to that enemy. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1070,7 +1070,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 4,
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type \u2192 deal 6 damage to an enemy and ready your hero. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type → deal 6 damage to an enemy and ready your hero. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1153,7 +1153,7 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 4,
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type \u2192 deal 6 damage to an enemy and ready each ally you control. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type → deal 6 damage to an enemy and ready each ally you control. Remove this card from the game and the campaign pool.",
 		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
@@ -1219,7 +1219,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 3,
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type \u2192 remove 5 threat from among schemes in play. You gain a tough status card. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type → remove 5 threat from among schemes in play. You gain a tough status card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1235,7 +1235,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 4,
-		"text": "<b>Hero Interrupt</b> <i>(defense/thwart)</i>: When you defend against an attack, spend 2 resources of any type \u2192 that attack removes threat from the main scheme instead of dealing damage. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Interrupt</b> <i>(defense/thwart)</i>: When you defend against an attack, spend 2 resources of any type → that attack removes threat from the main scheme instead of dealing damage. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1318,7 +1318,7 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 4,
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type \u2192 remove 5 threat from among schemes in play. Ready each ally you control. Remove this card from the game and the campaign pool.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type → remove 5 threat from among schemes in play. Ready each ally you control. Remove this card from the game and the campaign pool.",
 		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
